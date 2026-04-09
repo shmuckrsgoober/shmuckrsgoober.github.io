@@ -1,29 +1,98 @@
 <!DOCTYPE html>
-
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Collection 🎬</title>
+    <style>
+        body {
+            background: black;
+            font-family: 'Segoe UI', system-ui, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.5;
+        }
 
+        h1 {
+            font-family: 'Courier New', cursive;
+            color: red;
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        h3 {
+            color: red;
+            font-family: 'Cambria', Georgia, serif;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            border-left: 4px solid red;
+            padding-left: 12px;
+        }
+
+        p {
+            color: #ddd;
+            font-family: 'Comic Sans MS', 'Chalkboard SE', cursive;
+            font-size: 0.9rem;
+            background: #1a1a1a;
+            padding: 8px 12px;
+            border-radius: 8px;
+            margin: 10px 0;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+            display: inline-block;
+            margin: 5px 10px 5px 0;
+            padding: 6px 12px;
+            background: #1e1e1e;
+            border-radius: 6px;
+            transition: all 0.2s ease;
+            border: 1px solid #333;
+        }
+
+        a:hover {
+            color: red;
+            background: #2a2a2a;
+            border-color: red;
+            transform: scale(1.02);
+        }
+
+        hr {
+            border: none;
+            height: 1px;
+            background: linear-gradient(to right, red, transparent);
+            margin: 20px 0;
+        }
+
+        .warning-note {
+            background: #2a1a1a;
+            border-left: 3px solid #ffcc00;
+        }
+    </style>
 </head>
-
-
-
-
 <body>
+
     <h1>Movies 💩</h1>
 
     <hr>
-    <p>"⚠️"means subtitles dont work if you have audio processing difficulty</p>
-    <p>subtitles only dont work because of the video formatting, and if i changed them the quality would be worse</p>
+
+    <p class="warning-note"> "⚠️" means subtitles don't work if you have audio processing difficulty</p>
+    <p>subtitles only don't work because of the video formatting, and if I changed them the quality would be worse</p>
+
     <hr>
 
     <h3>Shrek Movies</h3>
     <a href="https://drive.google.com/file/d/1NezVaMIuVH1Gt0cHCQMT3JeJu7JuxlIG/view">Shrek 1 ⚠️</a>
     <a href="https://drive.google.com/file/d/1xtr5zFmpt6iD89Tn8VthzEiBij89J9pZ/view">Shrek 2 ⚠️</a>
-    <p>could not find google drive shrek the third or fourth, but nobody cares 3 and 4 are butt</p>
+    <p>could not find Google Drive Shrek the Third or Fourth, but nobody cares since 3 and 4 are butt</p>
 
     <hr>
 
     <h3>Goonies</h3>
-    <a href="https://drive.google.com/file/d/18sSKADZamG3w8ZaanP93XU4yHSVKzApM/view">The Goonies </a>
+    <a href="https://drive.google.com/file/d/18sSKADZamG3w8ZaanP93XU4yHSVKzApM/view">The Goonies</a>
 
     <hr>
 
@@ -44,28 +113,4 @@
     <a href="https://drive.google.com/file/d/1FjkoDYyMenurHCXa6ycTB2lDqcpU5R-R/view">The Outsiders</a>
 
 </body>
-
-<style>
-
-        body    {
-        background: black;
-    }
-    h3  {
-        color: red;
-        font-family: Cambria;
-    }
-
-    p   {
-        color: white;
-        font-family: 'Comic Sans MS';
-    }
-
-    a   {
-        color: white;
-    }
-
-    h1  {
-        font-family: Cursive;
-        color: red;
-    }
-</style>
+</html>
